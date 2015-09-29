@@ -1,13 +1,24 @@
 
 \newpage
 
+\setcounter{chapter}{3}
 \chapter{Toward Congruence and Similarity}
-Need to renumber so the section number is correct. 
 
-\section{Similar Triangles}
+\setcounter{section}{3}
+\section{Dilations, Scaling, and Similarity (cont.)}
+These pages are to follow p. 94 in the 2015 version of the notes for Math 1166.  
 
-One day when aloof old Professor Rufus was trying to explain similar
-triangles to his class, he merely wrote
+
+\subsection{Theorems for Similar Triangles}
+
+Recall the following:  
+\begin{definition}
+A geometric figure is similar to another if the second can be obtained
+from the first by a sequence of rotations, reflections, translations, and dilations.
+\end{definition}
+
+We need to show that this general definition of similarity fits with our previous ideas about similar triangles.  Here is one way of thinking about similar triangles:  
+
 \[
 \tri ABC \sim \tri A'B'C' \qquad\Leftrightarrow \qquad\begin{array}{l}
 \angle A \simeq \angle A'\\
@@ -15,21 +26,13 @@ triangles to his class, he merely wrote
 \angle C \simeq \angle C'
 \end{array}
 \]
-and walked out of the room.
 
 \begin{question} 
-Can you give $3$ much needed examples of similar triangles? 
+What does this mean?  
 \end{question}
 \QM
 
-\begin{question} 
-Devise a way to use folding and tracing constructions to help explore this notion
-of similar triangles.
-\end{question}
-\QM
-
-Another day when aloof old Professor Rufus was trying to explain
-similar triangles to his class, he merely wrote
+Here is another way of thinking about similar triangles:  
 \[
 \tri ABC \sim \tri A'B'C' \qquad\Leftrightarrow \qquad
 \begin{array}{l}
@@ -38,45 +41,12 @@ BC = k\cdot B'C' \\
 CA = k\cdot C'A'
 \end{array}
 \]
-and walked out of the room.
 
 \begin{question} 
-Can you give $3$ much needed examples of similar triangles? 
+What does this mean?  
 \end{question}
 \QM
 
-\begin{question} 
-Devise a way to use folding and tracing constructions to help explore this notion
-of similar triangles.
-\end{question}
-\QM
-
-
-
-\begin{question} 
-What's going on in aloof old Professor Rufus' head?  (I realize that
-this is a dangerous question!)  Why are his explanations so different?
-\end{question}
-\QM
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% UPSHOT: Either defintion is good for this course. There
-%% will/should-be handouts proving AA and SSS for similarity, hence
-%% proving they are the same.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-\subsection{Theorems for Similar Triangles}
-
-In this section we will show that that \textbf{both} definitions of similar
-triangles given above are \textbf{equivalent}.  We'll start with a gentle
-question:
-
-\begin{question} What is the formula for the area of a triangle?
-\end{question}
-\QM
 
 Using merely the formula for the area of a triangle, we (meaning you)
 will explain why the following important theorem is true. Throughout this 
@@ -97,8 +67,7 @@ If side $BC$ is parallel to side $DE$, then
 \end{theorem}
 
 \begin{question}
-Can you tell me in English what this theorem says? Provide some
-examples of this theorem in action.
+Can you tell me in English what this theorem says?  How does it relate to the definition of similarity in terms of rigid motions and dilations?  
 \end{question}
 \QM
 
@@ -106,7 +75,7 @@ Now we (meaning you) are going to explore a bit. See if answering
 these questions sheds light on this.
 
 \begin{question} 
-If $h$ is the height of $\tri ABC$, find a formula for the areas of
+If $h$ is the height of $\tri ABC$, find formulas for the areas of
 $\tri ABC$ and $\tri ADC$.
 \[
 \includegraphics{../graphics/split2.pdf} \qquad \includegraphics{../graphics/split3.pdf}
@@ -115,7 +84,7 @@ $\tri ABC$ and $\tri ADC$.
 \QM
 
 \begin{question} 
-If $g$ is the height of $\tri ACB$, find a formula for the areas of
+If $g$ is the height of $\tri ACB$, find formulas for the areas of
 $\tri ACB$ and $\tri AEB$.
 \[
 \includegraphics{../graphics/split4.pdf} \qquad \includegraphics{../graphics/split5.pdf}
@@ -198,11 +167,9 @@ BC &= k\cdot B'C'\\
 CA &= k\cdot C'A'
 \end{align*}
 \end{question}
+\marginnote{These notes do not describe why side $CA$ is also scaled by $k$.  You address that question in the Side-Splitter
+Theorem activity.}
 \QM
-
-
-
-
 
 
 \subsubsection{The Converse}
@@ -221,11 +188,11 @@ If side $BC$ intersects (splits) the sides of $\tri ADE$ so that
 then side $BC$ is parallel to side $DE$.
 \end{theorem}
 
-\begin{question} 
-How could you investigate this theorem using any of the construction
-techniques above?
-\end{question}
-\QM
+%\begin{question} 
+%How could you investigate this theorem using any of the construction
+%techniques above?
+%\end{question}
+%\QM
 
 Now we (meaning you) will answer questions in the hope that they will
 help us see why the above theorem is true.
@@ -259,7 +226,7 @@ What does this tell you about the Split-Side Theorem?
 
 Let's see if you can put this all together:
 \begin{question}
-Can you use the Split-Side Theorem to explain why if you know that
+Can you use the Split-Side Theorem to explain why you know that
 if you have two triangles, $\tri ABC$ and $\tri A'B'C'$ with:
 \begin{align*}
 AB &= k\cdot A'B'\\
@@ -281,8 +248,8 @@ Putting all of our work above together, we may now say the following:
 
 
 
-\begin{definition}\index{similar triangles} 
-Two triangles $\tri ABC$ and $\tri A'B'C'$ are said to be
+\begin{theorem}\index{similar triangles} 
+Two triangles $\tri ABC$ and $\tri A'B'C'$ are 
 \textbf{similar} if either equilvalent condition holds:
 \[
 \begin{array}{l}
@@ -297,103 +264,107 @@ BC = k\cdot B'C' \\
 CA = k\cdot C'A'
 \end{array}
 \]
-\end{definition}
-
-
-
-\subsubsection{SAS-Similarity Theorem}
-
-
-
-
-
-
-
-\begin{theorem}[SAS-Similarity Theorem]
-\index{Theorem!SAS Similarity}\index{SAS-Similarity Theorem} Knowing
-the ratio of the lengths of two sides and the measure of the angle
-between them, determines a triangle up to similarity. In pictures, we have something like:
-\[
-\includegraphics{../graphics/split1.pdf}
-\]
-\[
-\frac{AB}{AC} = \frac{AD}{AE} \qquad\Rightarrow\qquad \tri ABC \simeq \tri ADE.
-\]
 \end{theorem}
 
-\begin{question} What does this mean, ``up to similarity?''
-\end{question}
-\QM
-
-Let's see if we (meaning you) can get to the bottom of why this
-theorem is true. This time, you're going to produce the
-illustrations. Use folding and tracing why not!
-
 \begin{question}
-Fold any triangle. Now fold another triangle sharing one of the angles
-so that the ratio of the lengths of the sides are the same in both
-triangles. The sides touching the angle should share folds. You should
-see some parallel lines. Which theorem above says that this should
-happen?
+How does this theorem connect back to the definition of similarity in terms of rigid motions and dilations? 
 \end{question}
 \QM
+
+%
+%   The following theorem 
+%
+%\subsubsection{SAS-Similarity Theorem}
+%
+%
+%\begin{theorem}[SAS-Similarity Theorem]
+%\index{Theorem!SAS Similarity}\index{SAS-Similarity Theorem} Knowing
+%the ratio of the lengths of two sides and the measure of the angle
+%between them, determines a triangle up to similarity. In pictures, we have something like:
+%\[
+%\includegraphics{../graphics/split1.pdf}
+%\]
+%\[
+%\frac{AB}{AC} = \frac{AD}{AE} \qquad\Rightarrow\qquad \tri ABC \simeq \tri ADE.
+%\]
+%\end{theorem}
+%
+%\begin{question} What does this mean, ``up to similarity?''
+%\end{question}
+%\QM
+
+%Let's see if we (meaning you) can get to the bottom of why this
+%theorem is true. This time, you're going to produce the
+%illustrations. Use folding and tracing why not!
+%
+%\begin{question}
+%Fold any triangle. Now fold another triangle sharing one of the angles
+%so that the ratio of the lengths of the sides are the same in both
+%triangles. The sides touching the angle should share folds. You should
+%see some parallel lines. Which theorem above says that this should
+%happen?
+%\end{question}
+%\QM
+%
+%\begin{question} 
+%What do we know about parallel lines crossing another line?
+%\end{question}
+%\QM
+%
+%\begin{question} 
+%Can you sketch out (in words) how the questions above prove the SAS-Similarity
+%Theorem?
+%\end{question}
+%\QM
+
+
+\subsection{A New Meaning of Multiplication}
+School mathematics makes sense when concepts have \emph{meaning}.  
 
 \begin{question} 
-What do we know about parallel lines crossing another line?
-\end{question}
-\QM
-
-\begin{question} 
-Can you sketch out (in words) how the questions above prove the SAS-Similarity
-Theorem?
-\end{question}
-\QM
-
-
-\subsection{A Meaning of Multiplication}
-
-Do you ever sit around asking yourself what different things
-\textit{mean}? For example, ``What does being happy really mean?'' In
-mathematics we don't dare try to tackle a brain-buster like that
-one. Instead we try to focus on simple problems.
-
-\begin{question} What can multiplication mean? 
-\end{question}
-\QM
-
-I have no idea how you might have answered that question. Anyhow,
-maybe you can answer the next questions:
-
-\begin{question} 
-Can you give multiplication meaning involving groups of groups or
+What can multiplication mean?  Can you give multiplication meaning involving groups of groups or
 something of the sort?
 \end{question}
 \QM
 
 \begin{question} 
-Can you give multiplication meaning involving areas or something of
-the sort?
+Can you give multiplication meaning involving areas or something of the sort?
 \end{question}
 \QM
-
-\begin{question}
-Compare and contrast the two meanings of multiplication given above.
-\end{question}
-
-OK---all of this is fine and good, but we one little problem. If
-numbers by themselves ``mean'' lengths and numbers multiplied together
-``mean'' areas, how do we do something like this:
-\[
-\underbrace{3}_\text{length} + \underbrace{4\cdot 5}_\text{area}?
-\]
-
-
-I say we can use similar triangles to save the day!
-
 
 \begin{question} 
-Can you somehow give ``meaning'' to multiplication using similar
-triangles? Hint: One of them should have a side of length $1$.
+Can you somehow give meaning to multiplication using similarity?  Use ``scale factor'' or ``scaling'' in your explanation.
 \end{question}
 \QM
 
+\newpage 
+
+\subsection{Problem Solving with Similarity} 
+We now have several ways of thinking more deeply about the naive ``same shape'' notion of similarity (imagined as zooming in and out): same angles; proportional sides; sequence of basic rigid motions and dilation(s).  
+
+Key issue is being able to distinguish situations in which things are similar from those in which when they are not:  (e.g., baby from PowerPoint, types of televisions).  Multiplication is not necessarily scaling--unless it is dilation.  Direct proportion versus not.  
+
+Many real-world problems can be solved using similar triangles or other similar figures.  For example, you can use shadows to compute the height of a flagpole.  And maps, scale drawings, and scale models all involve similarity.  
+
+Students use proportional relationships between corresponding parts of similar figures, distinguishing ``within figure'' ratios from ``across figure'' ratios, relating the latter to the scale factor.\standardhs{G-SRT.2}  When the figures overlap, one challenge is being consistent about part-part versus part-whole ratios.
+
+Students use the definition of similarity to show that any two circles are similar.\standardhs{G-C.1}  They can also see the more surprising result that any two parabolas are similar.  
+
+Similarity turns out to be very useful in right triangles.  First, the altitude to the hypotenuse creates two triangles similar to the first.  Second, among right triangles, similarity requires only one more angle, which leads to right triangle trigonometry.  
+
+\section{Length, Area, and Volume under Scaling}
+When two objects are similar, then lengths are related by a scale factor.  What does this mean for other measurements?  Perimeters, areas, volumes, weights, etc.  
+
+\begin{itemize}\itemsep-2pt
+\item General considerations of measurement and dimension.  
+\item Reason about length, area, and volume in similarity situations.  Rep-tiles.    
+\item Use shearing and Cavalieri's principle to reason about area and volume.  
+\item Using a grid (and scaling the grid) to reason about areas of general shapes under scaling.  
+\item Volume as area of base times height:  Imagine layers of cubic units covering the base.
+\item Volume of pyramid:  Three pyramids make a cube.  
+\item Volume of cylinder, cone, and sphere.
+\item If you know the area of a rectangle, what can you say about its perimeter?  What about more general figures?  
+\item If you know the perimeter of a rectangle, what can you say about its area?  What about more general figures? 
+\item LeBron problems
+\item Fractals?  
+\end{itemize}

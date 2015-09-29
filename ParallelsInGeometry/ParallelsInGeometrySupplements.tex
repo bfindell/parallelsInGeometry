@@ -5,6 +5,7 @@
 
 \usepackage{framed}
 \usepackage{comment}
+\usepackage{rotating}
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
 %\newcommand{\teachingnotes}{With Teaching Notes}
@@ -36,6 +37,7 @@
 
 %% Put main text here
 
+
 \input{../chapters/similarity}  % Bart's notes
 
 % Section 4.5. Length, area, and volume under scaling (with problems)
@@ -51,7 +53,7 @@
 \chapter{Supplemental Activities}
 
 %\setcounter{page}{1}
-%\setcounter{section}{43}
+\setcounter{section}{51}
 
 
 % Activities in draft form or to be developed
@@ -59,24 +61,34 @@
 % tessellation activity for early in the term
 % Walking and turning a la Beckmann
 % some version of the CMP dilation activity
-% scaling volume
+% scaling volume figures (problems are in Turn up the Volume.  Separate into a new activity.)
 % connecting the dots for parametric?  
 % 
+\input{../chapters/appendix/suitablePrecision}
 \input{../chapters/appendix/circularTrig}
+\input{../chapters/appendix/quadDiagonals2}  % replace other version
 
 %  Unused activities
 
 %\input{../chapters/appendix/louieRegPoly}
-\input{../chapters/appendix/apothem}
+%\input{../chapters/appendix/apothem}
 % \input{../chapters/appendix/center}   % Subs at Sea.  Center of an element of a group
-\input{../chapters/appendix/goldenRatio}
-\input{../chapters/appendix/ruleTheDay}
+%\input{../chapters/appendix/goldenRatio}
+%\input{../chapters/appendix/ruleTheDay}
 
+% Figures for Turn Up the Volume!  
+\newpage
+
+$$\includegraphics[angle=90,scale=1.2]{../graphics/rightPyramid}$$
+\vfill
+\newpage
+
+$$\includegraphics[scale=1.2]{../graphics/sphereVolume}$$
 
 \chapter{Supplemental Problems}
 \input{1166-midterm}
 \input{1166-midterm2}
-
+%
 \input{1166-SupplementalProblems}
 
 
