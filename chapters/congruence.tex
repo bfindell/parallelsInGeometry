@@ -349,15 +349,26 @@ rotation around $O$. Then $R$ maps $l$ to a line parallel to itself.
 
 Note:  The following proof uses function notation to describe the images under the rotation $R$.  Thus $R(l)$ is the image of line $l$, and $R(Q)$ is the image of point $Q$.  
 
-\fixnote{Replace with direct proof from Wu.  See e-mail.}
-
 \begin{proof}
-Suppose $R(l)$ is not parallel to $l$.  Then $R(l)$ and $l$ have a point $Q$ in common.  Because $Q$ is on $R(l)$, there is a point $P$ on $l$, 
-so that $R(P) = Q$. Because $R$ is a $180^\circ$ rotation around $O$, the three points $P$, $Q$, and $O$ lie in a line $m$. But
-$Q$ is by assumption also a point in $l$, so $l$ and $m$  have two distinct points in common: $P$ and $Q$. 
-But $l$ and $R(l)$ are distinct because $O$ is on $m$ but not on $l$. We have a contradiction, and thus $R(l)$ must be parallel to $l$.  
+Let $P$ be an arbitrary point on $R(l)$, the rotated image of $l$.  To show that $R(l)$ is parallel to $l$, 
+it is sufficient to show that $P$ cannot lie also on $l$.  
+
+\[
+\includegraphics[scale=0.6]{../graphics/lineRotation.pdf}
+\]
+
+Because $P$ is on $R(l)$, there is a point $Q$ on $l$ such that $P = R(Q)$.  The rotated image of the ray $OQ$ is the ray $OP$, and because $\angle QOP$ is $180^\circ$, it follows that $Q$, $O$, and $P$ are collinear.  Call that line $k$.  We know line $k$ is distinct from $l$ because $O$ is on $k$ but not on $l$.  Now, if $P$ were on $l$, then points $P$ and $Q$ would be on two distinct lines, $k$ and $l$, contradicting A1 (i.e., on two points there is a unique line).  The theorem is proved.  
 \end{proof}
 
+% Previous proof (indirect) 
+%
+%\begin{proof}
+%Suppose $R(l)$ is not parallel to $l$.  Then $R(l)$ and $l$ have a point $Q$ in common.  Because $Q$ is on $R(l)$, there is a point $P$ on $l$, 
+%so that $R(P) = Q$. Because $R$ is a $180^\circ$ rotation around $O$, the three points $P$, $Q$, and $O$ lie in a line $m$. But
+%$Q$ is by assumption also a point in $l$, so $l$ and $m$  have two distinct points in common: $P$ and $Q$. 
+%But $l$ and $R(l)$ are distinct because $O$ is on $m$ but not on $l$. We have a contradiction, and thus $R(l)$ must be parallel to $l$.  
+%\end{proof}
+%
 %Lemma 1 (page 81) and Theorem 1 is proved.
 %
 %Corollary. Given a line L and point P not on L, there is a line parallel to L and
@@ -405,14 +416,363 @@ Now we are ready to define similarity.\standard{8.G.4}
 A geometric figure is \emph{similar} to another if the second can be obtained from the first by a sequence of rotations, reflections, translations, and dilations.  
 \end{definition}
 
-\begin{center}
-To Be Continued.
-\end{center}
 
 %If the objects are similar, try to find a single dilation that demonstrates the similarity.   If you cannot find such a dilation, explain how you know you cannot.  
 
-\fixnote{Fold in Bart's notes on similarity, which are in a file called similarity.tex in the chapters directory}
 
+\subsection{Theorems for Similar Triangles}
+
+We need to show that this general definition of similarity fits with our previous ideas about similar triangles.  Here is one way of thinking about similar triangles:  
+
+\[
+\tri ABC \sim \tri A'B'C' \qquad\Leftrightarrow \qquad\begin{array}{l}
+\angle A \simeq \angle A'\\
+\angle B \simeq \angle B' \\
+\angle C \simeq \angle C'
+\end{array}
+\]
+
+\begin{question} 
+What does this mean?  
+\end{question}
+\QM
+
+Here is another way of thinking about similar triangles:  
+\[
+\tri ABC \sim \tri A'B'C' \qquad\Leftrightarrow \qquad
+\begin{array}{l}
+AB = k\cdot A'B'\\
+BC = k\cdot B'C' \\
+CA = k\cdot C'A'
+\end{array}
+\]
+
+\begin{question} 
+What does this mean?  
+\end{question}
+\QM
+
+
+Using merely the formula for the area of a triangle, we (meaning you)
+will explain why the following important theorem is true. Throughout this 
+discussion we will use the convention that when we
+write $AB$ we mean the \textit{length} of the segment $AB$.
+
+
+\begin{theorem}[Parallel-Side] 
+\index{Parallel-Side Theorem}\index{Theorem!Parallel-Side}
+Given:
+\[
+\includegraphics{../graphics/split1.pdf}
+\]
+If side $BC$ is parallel to side $DE$, then
+\[
+\frac{AB}{AD} = \frac{AC}{AE}.
+\] 
+\end{theorem}
+
+\begin{question}
+Can you tell me in English what this theorem says?  How does it relate to the definition of similarity in terms of rigid motions and dilations?  
+\end{question}
+\QM
+
+Now we (meaning you) are going to explore a bit. See if answering
+these questions sheds light on this.
+
+\begin{question} 
+If $h$ is the height of $\tri ABC$, find formulas for the areas of
+$\tri ABC$ and $\tri ADC$.
+\[
+\includegraphics{../graphics/split2.pdf} \qquad \includegraphics{../graphics/split3.pdf}
+\]
+\end{question}
+\QM
+
+\begin{question} 
+If $g$ is the height of $\tri ACB$, find formulas for the areas of
+$\tri ACB$ and $\tri AEB$.
+\[
+\includegraphics{../graphics/split4.pdf} \qquad \includegraphics{../graphics/split5.pdf}
+\]
+\end{question}
+\QM
+
+
+\begin{question} Explain why 
+\[
+\mathrm{Area}(\tri ABC) = \mathrm{Area}(\tri ACB).
+\]
+\end{question}
+\QM
+
+\begin{question} Explain why 
+\[
+\mathrm{Area}(\tri CBE) = \mathrm{Area}(\tri CBD).
+\]
+Big hint: Use the fact that you have two parallel sides! Draw a
+picture to help clarify your explanation.
+\end{question}
+\QM
+
+\begin{question} Explain why 
+\[
+\mathrm{Area}(\tri ADC)= \mathrm{Area}(\tri AEB).
+\]
+\end{question}
+\QM
+
+\begin{question}
+Explain why
+\[
+\frac{\mathrm{Area}(\tri ABC)}{\mathrm{Area}(\tri ADC)} = \frac{ \mathrm{Area}(\tri ACB)}{\mathrm{Area}(\tri AEB)}
+\]
+\end{question}
+\QM
+
+\begin{question} Compute and simplify both of the following expressions:
+\[
+\frac{\mathrm{Area}(\tri ABC)}{\mathrm{Area}(\tri ADC)} \qquad\text{and}\qquad\frac{ \mathrm{Area}(\tri ACB)}{\mathrm{Area}(\tri AEB)}
+\]
+\end{question}
+\QM
+
+
+\begin{question} How can you conclude that: 
+\[
+\frac{AB}{AD} = \frac{AC}{AE}
+\]
+\end{question}
+\QM
+
+\begin{question} 
+Why is it important that line $DE$ is parallel to line $CB$?
+\end{question}
+\QM
+
+
+\begin{question} 
+Can you sketch out (in words) how the questions above prove the Parallel-Side
+Theorem?
+\end{question}
+\QM
+
+Now comes the moment of truth. 
+\begin{question}
+Can you use the Parallel-Side Theorem to explain why if you know that
+if you have two triangles, $\tri ABC$ and $\tri A'B'C'$ with:
+\begin{align*}
+\angle A &\simeq \angle A'\\
+\angle B &\simeq \angle B' \\
+\angle C &\simeq \angle C'
+\end{align*}
+then we must have that
+\begin{align*}
+AB &= k\cdot A'B'\\
+BC &= k\cdot B'C'\\
+CA &= k\cdot C'A'
+\end{align*}
+\end{question}
+\marginnote{These notes do not describe why side $CA$ is also scaled by $k$.  You address that question in the Side-Splitter
+Theorem activity.}
+\QM
+
+
+\subsubsection{The Converse}
+
+The converse of the Parallel-Side Theorem states:
+
+\begin{theorem}[Split-Side]\index{Split-Side Theorem}\index{Theorem!Split-Side} 
+Given:
+\[
+\includegraphics{../graphics/split1.pdf}
+\]
+If side $BC$ intersects (splits) the sides of $\tri ADE$ so that
+\[
+\frac{AB}{AD} = \frac{AC}{AE},
+\] 
+then side $BC$ is parallel to side $DE$.
+\end{theorem}
+
+%\begin{question} 
+%How could you investigate this theorem using any of the construction
+%techniques above?
+%\end{question}
+%\QM
+
+Now we (meaning you) will answer questions in the hope that they will
+help us see why the above theorem is true.
+
+\begin{question}
+Suppose that you \textbf{doubt} that side $BC$ is parallel to side $DE$. Explain
+how to place a point $C'$ on side $AE$ so that side $BC'$ is
+parallel to line $DE$. Be sure to sketch the situation(s).
+\end{question}
+\QM
+
+\begin{question} 
+You now have a triangle $\tri ADE$ whose sides are split by a line
+$BC'$ such that the line $BC'$ is parallel to line $DE$. What does the
+Parallel-Side Theorem have to say about this?
+\end{question}
+\QM
+
+\begin{question} What can you conclude about points $C$ and $C'$?
+\end{question}
+\QM
+
+
+\begin{question} 
+What does this tell you about the Split-Side Theorem?
+\end{question}
+\QM
+
+
+
+
+Let's see if you can put this all together:
+\begin{question}
+Can you use the Split-Side Theorem to explain why you know that
+if you have two triangles, $\tri ABC$ and $\tri A'B'C'$ with:
+\begin{align*}
+AB &= k\cdot A'B'\\
+BC &= k\cdot B'C'\\
+CA &= k\cdot C'A'
+\end{align*}
+then we must have that
+\begin{align*}
+\angle A &\simeq \angle A'\\
+\angle B &\simeq \angle B' \\
+\angle C &\simeq \angle C'
+\end{align*}
+\end{question}
+\QM
+
+Putting all of our work above together, we may now say the following:
+
+
+
+
+
+\begin{theorem}\index{similar triangles} 
+Two triangles $\tri ABC$ and $\tri A'B'C'$ are 
+\textbf{similar} if either equilvalent condition holds:
+\[
+\begin{array}{l}
+\angle A \simeq \angle A'\\
+\angle B \simeq \angle B' \\
+\angle C \simeq \angle C'
+\end{array}
+\qquad\text{or}\qquad
+\begin{array}{l}
+AB = k\cdot A'B'\\
+BC = k\cdot B'C' \\
+CA = k\cdot C'A'
+\end{array}
+\]
+\end{theorem}
+
+\begin{question}
+How does this theorem connect back to the definition of similarity in terms of rigid motions and dilations? 
+\end{question}
+\QM
+
+
+\fixnote{Possibly add section on SAS Similarity}
+
+%
+%   The following theorem 
+%
+%\subsubsection{SAS-Similarity Theorem}
+%
+%
+%\begin{theorem}[SAS-Similarity Theorem]
+%\index{Theorem!SAS Similarity}\index{SAS-Similarity Theorem} Knowing
+%the ratio of the lengths of two sides and the measure of the angle
+%between them, determines a triangle up to similarity. In pictures, we have something like:
+%\[
+%\includegraphics{../graphics/split1.pdf}
+%\]
+%\[
+%\frac{AB}{AC} = \frac{AD}{AE} \qquad\Rightarrow\qquad \tri ABC \simeq \tri ADE.
+%\]
+%\end{theorem}
+%
+%\begin{question} What does this mean, ``up to similarity?''
+%\end{question}
+%\QM
+
+%Let's see if we (meaning you) can get to the bottom of why this
+%theorem is true. This time, you're going to produce the
+%illustrations. Use folding and tracing why not!
+%
+%\begin{question}
+%Fold any triangle. Now fold another triangle sharing one of the angles
+%so that the ratio of the lengths of the sides are the same in both
+%triangles. The sides touching the angle should share folds. You should
+%see some parallel lines. Which theorem above says that this should
+%happen?
+%\end{question}
+%\QM
+%
+%\begin{question} 
+%What do we know about parallel lines crossing another line?
+%\end{question}
+%\QM
+%
+%\begin{question} 
+%Can you sketch out (in words) how the questions above prove the SAS-Similarity
+%Theorem?
+%\end{question}
+%\QM
+
+
+\subsection{A New Meaning of Multiplication}
+School mathematics makes sense when concepts have \emph{meaning}.  
+
+\begin{question} 
+What can multiplication mean?  Can you give multiplication meaning involving groups of groups or
+something of the sort?
+\end{question}
+\QM
+
+\begin{question} 
+Can you give multiplication meaning involving areas or something of the sort?
+\end{question}
+\QM
+
+\begin{question} 
+Can you somehow give meaning to multiplication using similarity?  Use ``scale factor'' or ``scaling'' in your explanation.
+\end{question}
+\QM
+
+\newpage 
+
+\subsection{Problem Solving with Similarity} 
+
+
+\fixnote{Following are rough notes.} 
+We now have several ways of thinking more deeply about the naive ``same shape'' notion of similarity, imagined as zooming in and out.  In this section, we defined similarity in terms of basic rigid motions and dilations, and we used calculations involving area to show that these ideas are consistent with triangle similarity described as ``same angles''  or described as ``proportional sides.''
+
+Again, the advantage of defining simlarity in terms of basic rigid motion and dilations, is that the approach 
+applies not just to polygons but to figures of any shape.  And the key is identifying the scale factor.  
+
+% Multiplication is not necessarily scaling--unless it is dilation
+% Direct proportion versus not.  
+% (e.g., baby from PowerPoint, types of televisions)
+
+Here are some key ideas that arise in the activities and homework problems: 
+\begin{enumerate}
+\item Many real-world problems can be solved using similar triangles or other similar figures.  For example, you can use shadows to 
+compute the height of a flagpole.  Maps, scale drawings, and scale models all involve similarity.  
+
+\item A crticial issue is being able to distinguish situations in which figures are similar from those in which they are not.  
+
+\item When using proportional relationships between corresponding parts of similar figures, it helps distinguish ``within figure'' ratios from ``across figure'' ratios, the latter being a scale factor.\standardhs{G-SRT.2}  When figures overlap, one challenge is being consistent about part-part versus part-whole ratios.
+
+\item You may use the definition of similarity to show that any two circles are similar.\standardhs{G-C.1}  You can also see the more surprising result that any two parabolas are similar.  
+
+\item Similarity turns out to be very useful in right triangles.  First, the altitude to the hypotenuse creates two triangles similar to the first.  Second, among right triangles, similarity requires specifying only one more angle, which leads to right triangle trigonometry.  
+\end{enumerate}
 
 
 \begin{problems}
@@ -596,10 +956,26 @@ meters tall.
 
 \section{Length, Area, and Volume Under Scaling}
 
-To be written. 
+\fixnote{This section needs elaboration.}
 
-\fixnote{Include problems on making scale drawings and on using scale drawings to solve problems about length and area.}
+When two objects are similar, then lengths are related by a scale factor.  What does this mean for other measurements, such as perimeters, areas, volumes, weights, etc.  
 
+Here are some ideas to think about:  
 
+\begin{itemize}\itemsep-2pt
+\item General considerations of measurement and dimension.  
+\item Making scale drawings and on using scale drawings to solve problems about length and area
+\item Reason about length, area, and volume in similarity situations.  Rep-tiles.    
+\item Use shearing and Cavalieri's principle to reason about area and volume.  
+\item Using a grid (and scaling the grid) to reason about areas of general shapes under scaling.  
+\item Volume as area of base times height:  Imagine layers of cubic units covering the base.
+\item Volume of pyramid:  Three pyramids make a cube.  
+\item Volume of cylinder, cone, and sphere.
+\item If you know the area of a rectangle, what can you say about its perimeter?  What about more general figures?  
+\item If you know the perimeter of a rectangle, what can you say about its area?  What about more general figures? 
+\item Fractals are ``self-similar'' figures.  
+\end{itemize}
+
+ 
 
 
