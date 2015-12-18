@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
 [1994/12/01]% LaTeX date must be December 1994 or later
-\ProvidesPackage{teacherEd}[2014/12/22 v1.04]
+\ProvidesPackage{teacherEd}[2015/12/17 v1.05]
 \ProcessOptions\relax
 
 %% The following is a quick fix for \subsubsection, which is not available in the Tufte style
@@ -24,10 +24,9 @@
 \RequirePackage{thmtools}
 \RequirePackage{microtype}
 \RequirePackage{enumerate}
-\RequirePackage{makeidx} %%% gives us our groovy index
 \RequirePackage{marginfix}
 \RequirePackage{rotating}
-
+\RequirePackage{makeidx} %%% gives us our groovy index
 
 \makeindex
 
@@ -41,7 +40,7 @@
 
 \usepackage{pgfplots}\pgfplotsset{compat=1.7}  % Needed for eclipseTheEllipse
 
-\RequirePackage{morefloats}
+\RequirePackage{morefloats}  %  No longer needed with LaTex released on 1/1/2015? 
 
 \usetikzlibrary{shadows}
 \usetikzlibrary{shapes}
@@ -59,7 +58,7 @@
 \let\iint\undefined 
 \let\iiint\undefined 
 %\RequirePackage{MnSymbol}
-\RequirePackage{kmath,kerkis} % The order of the packages matters; kmath changes the default text font
+\RequirePackage{kmath,kerkis} % The order of the packages matters; kmath changes the default text font (fix vartheta below)
 
 
 %%% Header and Footer Options
@@ -227,7 +226,8 @@
 
 
 \declaretheoremstyle[ headfont=\normalfont\bfseries,
-  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\slshape,
+%  notefont=\mdseries, notebraces={(}{)}, 
+  bodyfont=\normalfont\slshape,
   postheadspace=0.5em,
   preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
 rightmargin=40,backgroundcolor=theoremBackground,fontcolor=textColor,%%
@@ -239,7 +239,8 @@ skipabove=\baselineskip]},
 
 
 \declaretheoremstyle[ headfont=\normalfont\bfseries,
-  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\slshape,
+%  notefont=\mdseries, notebraces={(}{)}, 
+  bodyfont=\normalfont\slshape,
   postheadspace=0.5em,
   preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
 rightmargin=40,backgroundcolor=theoremBackground,fontcolor=textColor,%%
@@ -262,7 +263,8 @@ skipabove=\baselineskip]},
 
 
 \declaretheoremstyle[ headfont=\normalfont\bfseries,
-  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\upshape,
+%  notefont=\mdseries, notebraces={(}{)}, 
+  bodyfont=\normalfont\upshape,
   postheadspace=0.5em,
   preheadhook={\begin{mdframed}[outerlinewidth=2,topline=false, bottomline=false, leftline=true, rightline=false, leftmargin=40,%
 rightmargin=40,
@@ -291,7 +293,8 @@ skipbelow=\baselineskip]{proof}%
 {Proof}
 
 \declaretheoremstyle[ headfont=\normalfont\bfseries,
-  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont,
+%  notefont=\mdseries, notebraces={(}{)}, 
+  bodyfont=\normalfont,
   postheadspace=0.5em,
   preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
 rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
@@ -496,7 +499,7 @@ skipabove=\baselineskip]{warning}%
     [\end{fullwidth}] % after
   \titlecontents{chapter}%
     [0em] % distance from left margin
-    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\sffamily} % above (global formatting of entry)
+    {\vspace{1.2\baselineskip}\begin{fullwidth}\LARGE\sffamily} % above (global formatting of entry)
     {\hspace*{0em}\contentslabel{2em}} % before w/label (label = ``2'')
     {\hspace*{0em}} % before w/o label
     {\sffamily\hfill\qquad\thecontentspage} % filler + page (leaders and page num)
