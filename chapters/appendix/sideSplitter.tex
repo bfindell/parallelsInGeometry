@@ -21,8 +21,12 @@ For the parallelogram below, which triangle has the greatest area: $\triangle XY
 $$\includegraphics[scale=0.5]{../graphics/sideSplitter3}$$
 \end{prob}
 
+\begin{teachingnote}
+An important objective in the next two problems is the habit of using an equation string, one modification at a time, to show that two expressions are equivalent.
+\end{teachingnote}
+
 \begin{prob}
-Prove:  If a line in a triangle is parallel to a side of a triangle, then it splits the other sides of the triangle proportionally.
+Prove the \textbf{Parallel-Side Theorem}:  If a line in a triangle is parallel to a side of a triangle, then it splits the other sides of the triangle proportionally. 
 $$\includegraphics[scale=0.7]{../graphics/sideSplitter}$$
 \begin{enumerate}
 \item How do the areas of $\triangle ADE$ and $\triangle DBE$ relate to $AD$ and $DB$?  Explain.  
@@ -33,19 +37,49 @@ $$\includegraphics[scale=0.7]{../graphics/sideSplitter}$$
 \end{enumerate}
 \end{prob}
 
+\fixnote{Need a recap:  What the heck did we just do?  What does this say?  Need teaching notes to help set up the algebra to see the structure of the argument.}  
+
 \begin{prob}
-Prove:  In the previous figure, $\frac{AB}{AD} = \frac{AC}{AE} = \frac{BC}{DE}$.  
+Use some algebra to show, in the previous picture, that $\frac{AB}{AD} = \frac{AC}{AE}$.
+\end{prob}
+
+\begin{prob}
+Prove:  In the previous figure, $ \frac{BC}{DE} = \frac{AB}{AD} = \frac{AC}{AE}$.  
 \begin{enumerate}
-\item Use the results of the previous problem and some algebra to show that $\frac{AB}{AD} = \frac{AC}{AE}$
 \item How do we know that $\angle ADE \cong \angle ABC$?  
 \item Translate $\triangle ADE$ by the vector $\overrightarrow{DB}$ so that the image $\angle A'D'E'$ of $\angle ADE$ coincides with $\angle ABC$.  Draw a picture of the result.  
 \item What segments are parallel now?  How do you know?  
-\item Now explain why $\frac{BC}{DE}$ is equal to the common ratio in part (a).  
+\item Now explain why $\frac{BC}{DE} = \frac{AB}{AD} = \frac{AC}{AE}$ is equal to a common ratio from the previous problem.  
 \end{enumerate}
 \end{prob}
 
 \begin{prob}
-Prove:  If a line in a triangle splits two sides proportionally, then it is parallel to the third side of the triangle.  (Hint:  Using the previous figures, draw a line through $D$ and parallel to $\overline{BC}$, and let $X$ be the point where the new line intersects $\overline{AC}$.  By the previous results, $\overline{DX}$ divides the sides proportionally.  Then argue that $E$ and $X$ must be the same point.)  
+Explain briefly how the Parallel-Side Theorem implies the AA criterion for triangle similarity.  (Hint: Be sure to use the definition of similarity in terms of basic rigid motions and dilations.)  
+% Hint:  You need to begin with two triangles that have two pairs of congrent angles.  You need to show (generally) that there exists a sequence of basic rigid motions and dilations that maps one triangle onto the other.  Be sure to consider how you would know whether a reflection is needed as one of the basic rigid motions.  
 \end{prob}
 
+\begin{prob}
+The \textbf{Split-Side Theorem} is the converse of the Parallel-Side Theorem.   
+\begin{enumerate}
+\item State the Split-Side Theorem.   
+% If a line in a triangle splits two sides proportionally, then it is parallel to the third side of the triangle.
+\item Prove the Split-Side Theorem.  (Hint:  Using the previous figures, draw a line through $D$ and parallel to $\overline{BC}$, and let $X$ be the point where the new line intersects $\overline{AC}$.  By the previous results, $\overline{DX}$ divides the sides proportionally.  Then argue that $E$ and $X$ must be the same point.)  
+\end{enumerate}
+\end{prob}
+
+
+
+\begin{prob}
+Use the Split-Side Theorem to justify the following properties of a dilation given by a center and a scale factor:
+\begin{enumerate}
+\item A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.
+\item The dilation of a line segment is longer or shorter in the ratio given by the scale factor.
+\end{enumerate}
+% Hint: You need to begin with a dilation, and you need to show that it has the listed properties.  In addition to the Split-Side Theorem, you may also use other results established in this activity. 
+
+\end{prob}
+
+\begin{prob}
+Explain briefly how the Split-Side Theorem establishes the SAS criterion for triangle similarity.  
+\end{prob}
 

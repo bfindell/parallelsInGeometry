@@ -1,19 +1,12 @@
-\contentsline {chapter}{\numberline {4}Toward Congruence and Similarity}{3}{chapter.4}
-\contentsline {section}{\numberline {4.4}Dilations, Scaling, and Similarity (cont.)}{3}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Theorems for Similar Triangles}{3}{subsection.4.4.1}
-\contentsline {paragraph}{The Converse}{8}{paragraph*.2}
-\contentsline {subsection}{\numberline {4.4.2}A New Meaning of Multiplication}{11}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Problem Solving with Similarity}{12}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Length, Area, and Volume under Scaling}{12}{section.4.5}
-\contentsline {chapter}{\numberline {A}Supplemental Activities}{14}{appendix.A}
-\contentsline {section}{\numberline {A.52}Suitable Precision in Language (aka A.3B)}{15}{section.A.52}
-\contentsline {section}{\numberline {A.53}Circular Trigonometry}{16}{section.A.53}
-\contentsline {section}{\numberline {A.54}Quadrilateral Diagonals}{19}{section.A.54}
-\contentsline {chapter}{\numberline {B}Supplemental Problems}{23}{appendix.B}
-\contentsline {section}{\numberline {B.1}Midterm 1 Review}{24}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Review Ideas}{24}{subsection.B.1.1}
-\contentsline {section}{\numberline {B.2}Midterm 2 Review (final version)}{26}{section.B.2}
-\contentsline {subsection}{\numberline {B.2.1}Midterm 2 Review Problems}{27}{subsection.B.2.1}
-\contentsline {section}{\numberline {B.3}Final Exam Review (draft, 4/28/15)}{32}{section.B.3}
-\contentsline {subsection}{\numberline {B.3.1}Supplemental Review Problems}{33}{subsection.B.3.1}
+\contentsline {chapter}{\numberline {A}Supplemental Activities}{3}{appendix.A}
+\contentsline {section}{\numberline {A.52}Lines in Triangles}{4}{section.A.52}
+\contentsline {chapter}{\numberline {B}Supplemental Problems}{7}{appendix.B}
+\contentsline {section}{\numberline {B.1}Midterm 1 Review}{8}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Review Ideas}{8}{subsection.B.1.1}
+\contentsline {section}{\numberline {B.2}Midterm 2 Review}{12}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Midterm 2 Review Problems}{13}{subsection.B.2.1}
+\contentsline {section}{\numberline {B.3}Math 1166: Final Exam Review, 2016}{19}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Supplemental Review Problems}{20}{subsection.B.3.1}
+\contentsline {section}{\numberline {B.4}Math 4407 Exam Review}{26}{section.B.4}
+\contentsline {subsection}{\numberline {B.4.1}Review Ideas}{26}{subsection.B.4.1}
 \contentsfinish 
