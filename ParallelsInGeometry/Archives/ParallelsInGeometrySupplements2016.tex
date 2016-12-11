@@ -1,0 +1,97 @@
+\PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
+\documentclass[justified,openany,nofonts]{tufte-book}
+
+\usepackage{teacherEd}
+
+\usepackage{framed}
+\usepackage{comment}
+
+%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
+
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
+
+%%% This sets how the enumerate command works
+\renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+
+\title{Parallels \\ in Geometry \\ (Supplements)}
+\author{\teachingnotes}
+\publisher{Math 1166:  Spring 2016 \\ This document was typeset on \today.}
+%\date{}
+
+
+
+\begin{document}
+\def\document#1{} %% Needed to add standards
+\maketitle
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\setcounter{secnumdepth}{2} % turn on numbering for parts and chapters
+
+%% Put main text here
+
+
+%\input{../chapters/similarity}  % Bart's notes
+
+% Section 4.5. Length, area, and volume under scaling (with problems)
+% Section 5.5. Functions and more functions
+
+
+%\input{Grade8toCongruence}
+
+\appendix
+
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\chapter{Supplemental Activities}
+
+%\setcounter{page}{1}
+\setcounter{section}{51}
+
+
+% Activities in draft form or to be developed
+
+% tessellation activity for early in the term
+% Walking and turning a la Beckmann
+% some version of the CMP dilation activity
+% scaling volume figures (problems are in Turn up the Volume.  Separate into a new activity.)
+% connecting the dots for parametric?  
+% 
+%\input{../chapters/appendix/suitablePrecision}
+%\input{../chapters/appendix/circularTrig}
+%\input{../chapters/appendix/quadDiagonals2}  % replace other version
+
+%  Unused activities
+
+%\input{../chapters/appendix/louieRegPoly}
+%\input{../chapters/appendix/apothem}
+% \input{../chapters/appendix/center}   % Subs at Sea.  Center of an element of a group
+%\input{../chapters/appendix/goldenRatio}
+%\input{../chapters/appendix/ruleTheDay}
+
+% Figures for Turn Up the Volume!  
+
+\input{../chapters/appendix/linesInTriangles}
+
+\newpage
+
+$$\includegraphics[angle=90,scale=1.2]{../graphics/rightPyramid}$$
+\vfill
+\newpage
+
+$$\includegraphics[scale=1.2]{../graphics/sphereVolume}$$
+
+\chapter{Supplemental Problems}
+\input{1166-midterm}
+\input{1166-midterm2}
+%
+\input{1166-SupplementalProblems}
+\input{4407-exam}
+
+\end{document}
