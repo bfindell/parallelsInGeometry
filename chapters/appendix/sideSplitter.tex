@@ -30,21 +30,48 @@ Prove the \textbf{Parallel-Side Theorem}:  If a line in a triangle is parallel t
 $$\includegraphics[scale=0.7]{../graphics/sideSplitter}$$
 \begin{enumerate}
 \item How do the areas of $\triangle ADE$ and $\triangle DBE$ relate to $AD$ and $DB$?  Explain.  
-\item How do the areas of $\triangle ADE$ and $\triangle CED$ relate to $AE$ and $CE$?  Explain. 
-\item How do the areas of $\triangle BDE$ and $\triangle CED$ compare?  Explain.  
-\item Use the previous results to show that $\frac{AD}{DB} = \frac{AE}{EC}$.  
-\item Where in the proof did you use the fact that $\overline{DE} \parallel \overline{BC}$?  
+\item How do the areas of $\triangle ADE$ and $\triangle ECD$ relate to $AE$ and $EC$?  Explain. 
+\item How do the areas of $\triangle DBE$ and $\triangle ECD$ compare?  Explain.  
+\item Use the previous results to show that $\frac{DB}{AD} = \frac{EC}{AE}$.  
+\item What the heck did we just do?  What does this say?
+\item Where in the proof did we use the fact that $\overline{DE} \parallel \overline{BC}$?  
 \end{enumerate}
 \end{prob}
 
-\fixnote{Need a recap:  What the heck did we just do?  What does this say?  Need teaching notes to help set up the algebra to see the structure of the argument.}  
+\begin{teachingnote}
+In the following argument, the triangles refer to their areas.  
+Two pairs of triangles with the same height and different bases:  
+\[
+\frac{DB}{AD} = \frac{\triangle DBE}{\triangle ADE}
+\]
+\[
+\frac{EC}{AE} = \frac{\triangle ECD}{\triangle ADE}
+\]
+Because of the parallel lines, a pair of triangles with the same height and the same base:  
+\[
+\triangle DBE = \triangle ECD
+\]
+Putting this together, we have:  
+\[
+\frac{DB}{AD} = \frac{\triangle DBE}{\triangle ADE} = \frac{\triangle ECD}{\triangle ADE}
+=\frac{EC}{AE}
+\]
+\end{teachingnote}
+
 
 \begin{prob}
 Use some algebra to show, in the previous picture, that $\frac{AB}{AD} = \frac{AC}{AE}$.
 \end{prob}
 
+\begin{teachingnote}
+\[
+\frac{AB}{AD} = \frac{AD+DB}{AD} = 1 + \frac{DB}{AD} =  1 + \frac{EC}{AE} 
+= \frac{AE + EC}{AE} = \frac{AC}{AE}
+\]
+\end{teachingnote}
+
 \begin{prob}
-Prove:  In the previous figure, $ \frac{BC}{DE} = \frac{AB}{AD} = \frac{AC}{AE}$.  
+Prove:  Next we prove, in the previous figure, that $ \frac{BC}{DE} = \frac{AB}{AD} = \frac{AC}{AE}$.  Here are the steps.  
 \begin{enumerate}
 \item How do we know that $\angle ADE \cong \angle ABC$?  
 \item Translate $\triangle ADE$ by the vector $\overrightarrow{DB}$ so that the image $\angle A'D'E'$ of $\angle ADE$ coincides with $\angle ABC$.  Draw a picture of the result.  
