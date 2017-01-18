@@ -11,13 +11,13 @@
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
 
-%\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
-%\newcommand{\teachingnotes}{With Teaching Notes}
-\excludecomment{teachingnote}
-\newcommand{\teachingnotes}{}
+\newenvironment{teachingnote}{\begin{framed}\noindent \textbf{Teaching Note:}}{\end{framed}}
+\newcommand{\teachingnotes}{With Teaching Notes}
+%\excludecomment{teachingnote}
+%\newcommand{\teachingnotes}{}
 
-%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
-\def\fixnote#1{}
+\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+%\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
@@ -25,7 +25,7 @@
 
 \title{Parallels \\ in Geometry}
 \author{\teachingnotes}
-\publisher{Math 1166:  Spring 2016 \\ This document was typeset on \today.}
+\publisher{Math 1166:  Spring 2017 \\ This document was typeset on \today.}
 %\date{}
 
 
