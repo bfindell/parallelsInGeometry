@@ -16,7 +16,7 @@
   \item $\C$, \hyperpage{117}
   \item calisson, \hyperpage{33}
   \item Cavalieri's Principle, \hyperpage{35, 36}
-  \item Cavalieri's principle, \hyperpage{258}
+  \item Cavalieri's principle, \hyperpage{228}
   \item centroid, \hyperpage{51}, \hyperpage{54}, \hyperpage{77}, 
 		\hyperpage{116}
   \item circle, \hyperpage{68}
@@ -73,8 +73,7 @@
     \subitem Euclidean, \hyperpage{106}
     \subitem taxicab, \hyperpage{133}
   \item Descartes numbers, \hyperpage{117}
-  \item diagonal reflection, \hyperpage{159}
-  \item directrix, \hyperpage{113}, \hyperpage{264}
+  \item directrix, \hyperpage{113}, \hyperpage{234}
   \item dissection proof, \hyperpage{28}
   \item distance
     \subitem Euclidean, \hyperpage{106}
@@ -94,7 +93,7 @@
 
   \item $\F$, \hyperpage{117}
   \item field, \hyperpage{121}
-  \item focus, \hyperpage{264}
+  \item focus, \hyperpage{234}
   \item focus of a   parabola, \hyperpage{113}
   \item folding and tracing
     \subitem bisecting a segment, \hyperpage{66}
@@ -119,22 +118,14 @@
     \subitem city, \hyperpage{134}
     \subitem Euclidean, \hyperpage{133}
   \item gorilla suit, \hyperpage{147}
-  \item group, \hyperpage{177}
-  \item group table, \hyperpage{178}
 
   \indexspace
 
-  \item horizontal reflection, \hyperpage{159}
-
-  \indexspace
-
-  \item identity matrix, \hyperpage{168}
   \item incenter, \hyperpage{52}, \hyperpage{54}, \hyperpage{77}, 
 		\hyperpage{116}
   \item incircle, \hyperpage{52}, \hyperpage{54}
   \item integers, \hyperpage{118}
   \item intersection, \hyperpage{13}
-  \item isometry, \hyperpage{156}
 
   \indexspace
 
@@ -144,14 +135,11 @@
 
   \item line
     \subitem Coordinate Geometry, \hyperpage{105}
-  \item Louie Llama, \hyperpage{156}, \hyperpage{159}, \hyperpage{161}
 
   \indexspace
 
-  \item matrix, \hyperpage{154}
-    \subitem multiplication, \hyperpage{155}
   \item median, \hyperpage{51}
-  \item midset, \hyperpage{298}
+  \item midset, \hyperpage{268}
     \subitem city geometry, \hyperpage{140}
   \item Morley's Theorem, \hyperpage{74}
 
@@ -190,15 +178,10 @@
   \indexspace
 
   \item rational numbers, \hyperpage{120}
-  \item reflection, \hyperpage{158}
-    \subitem diagonal, \hyperpage{159}
-    \subitem horizontal, \hyperpage{159}
-    \subitem vertical, \hyperpage{159}
   \item regular
     \subitem polygon, \hyperpage{19}
     \subitem tessellation, \hyperpage{19}
-  \item rep-tile, \hyperpage{252}
-  \item rotation, \hyperpage{161}
+  \item rep-tile, \hyperpage{222}
 
   \indexspace
 
@@ -216,8 +199,7 @@
   \item $\sqrt{2}$, \hyperpage{144}
   \item squaring the circle, \hyperpage{126}
   \item subset, \hyperpage{11}
-  \item symmetry   group, \hyperpage{181}
-  \item symmetry of scale, \hyperpage{255}
+  \item symmetry of scale, \hyperpage{225}
 
   \indexspace
 
@@ -229,7 +211,6 @@
   \item Theorem
     \subitem Parallel-Side, \hyperpage{93}
     \subitem Split-Side, \hyperpage{97}
-  \item translation, \hyperpage{157}
   \item triangle
     \subitem city geometry, \hyperpage{135}
   \item trisecting the angle, \hyperpage{72}, \hyperpage{74}, 
@@ -239,10 +220,6 @@
 
   \item $\cup$, \hyperpage{12}
   \item union, \hyperpage{12}
-
-  \indexspace
-
-  \item vertical reflection, \hyperpage{159}
 
   \indexspace
 

@@ -68,75 +68,55 @@
 \contentsline {paragraph}{Parabolas}{143}{paragraph*.17}
 \contentsline {paragraph}{A Paradox}{144}{paragraph*.18}
 \contentsline {section}{\numberline {6.3}Getting Work Done}{147}{section.6.3}
-\contentsline {chapter}{\numberline {7}The Algebra of Isometries}{154}{chapter.7}
-\contentsline {section}{\numberline {7.1}Matrices as Functions}{154}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Translations}{156}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Reflections}{158}{subsection.7.1.2}
-\contentsline {paragraph}{A Collection of Reflections}{159}{paragraph*.19}
-\contentsline {subsection}{\numberline {7.1.3}Rotations}{161}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}The Algebra of Matrices}{168}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Matrix Multiplication}{168}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Compositions of Matrices}{170}{subsection.7.2.2}
-\contentsline {paragraph}{Compositions of Translations}{170}{paragraph*.20}
-\contentsline {paragraph}{Compositions of Reflections}{171}{paragraph*.21}
-\contentsline {paragraph}{Compositions of Rotations}{172}{paragraph*.22}
-\contentsline {subsection}{\numberline {7.2.3}Mixing and Matching}{173}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}The Theory of Groups}{177}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Groups of Rotations}{177}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Groups of Reflections}{179}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Symmetry Groups}{180}{subsection.7.3.3}
-\contentsline {chapter}{\numberline {A}Activities}{184}{appendix.A}
-\contentsline {section}{\numberline {A.1}It's What the Book Says}{185}{section.A.1}
-\contentsline {section}{\numberline {A.2}Forget Something?}{188}{section.A.2}
-\contentsline {section}{\numberline {A.3}Measuring Area}{189}{section.A.3}
-\contentsline {section}{\numberline {A.4}Suitable Precision in Language}{191}{section.A.4}
-\contentsline {section}{\numberline {A.5}Tilted Square}{193}{section.A.5}
-\contentsline {section}{\numberline {A.6}Pythagorean Theorem}{194}{section.A.6}
-\contentsline {section}{\numberline {A.7}Angles in a Funky Shape}{197}{section.A.7}
-\contentsline {section}{\numberline {A.8}Trapezoid Area}{198}{section.A.8}
-\contentsline {section}{\numberline {A.9}Triangle Investigation}{200}{section.A.9}
-\contentsline {section}{\numberline {A.10}UnMessUpable Figures}{201}{section.A.10}
-\contentsline {section}{\numberline {A.11}Triangle Centers}{203}{section.A.11}
-\contentsline {section}{\numberline {A.12}Lines in Triangles}{206}{section.A.12}
-\contentsline {section}{\numberline {A.13}Isosceles Bisectors}{207}{section.A.13}
-\contentsline {section}{\numberline {A.14}About Medians}{210}{section.A.14}
-\contentsline {section}{\numberline {A.15}Verifying our Constructions}{213}{section.A.15}
-\contentsline {section}{\numberline {A.16}Of Angles and Circles}{215}{section.A.16}
-\contentsline {section}{\numberline {A.17}More Circles}{218}{section.A.17}
-\contentsline {section}{\numberline {A.18}Quadrilateral Diagonals}{220}{section.A.18}
-\contentsline {section}{\numberline {A.19}Congruence via Transformations}{222}{section.A.19}
-\contentsline {section}{\numberline {A.20}More Transformations}{227}{section.A.20}
-\contentsline {section}{\numberline {A.21}Symmetries}{229}{section.A.21}
-\contentsline {section}{\numberline {A.22}Congruence Criteria}{232}{section.A.22}
-\contentsline {section}{\numberline {A.23}Parallels}{236}{section.A.23}
-\contentsline {section}{\numberline {A.24}Midsegments}{237}{section.A.24}
-\contentsline {section}{\numberline {A.25}Similarities}{238}{section.A.25}
-\contentsline {section}{\numberline {A.26}Side-Splitter Theorems}{243}{section.A.26}
-\contentsline {section}{\numberline {A.27}Trigonometry Checkup}{247}{section.A.27}
-\contentsline {section}{\numberline {A.28}Please be Rational}{250}{section.A.28}
-\contentsline {section}{\numberline {A.29}Rep-Tiles}{252}{section.A.29}
-\contentsline {section}{\numberline {A.30}Rep-Tiles Repeated}{254}{section.A.30}
-\contentsline {section}{\numberline {A.31}Scaling Area}{256}{section.A.31}
-\contentsline {section}{\numberline {A.32}Turn Up the Volume!}{258}{section.A.32}
-\contentsline {section}{\numberline {A.33}Coordinate Constructions}{262}{section.A.33}
-\contentsline {section}{\numberline {A.34}Bola, Para Bola}{264}{section.A.34}
-\contentsline {section}{\numberline {A.35}More Medians}{266}{section.A.35}
-\contentsline {section}{\numberline {A.36}Constructible Numbers}{269}{section.A.36}
-\contentsline {section}{\numberline {A.37}Impossibilities}{273}{section.A.37}
-\contentsline {section}{\numberline {A.38}Area and Perimeter}{274}{section.A.38}
-\contentsline {section}{\numberline {A.39}Reading Information From a Graph}{278}{section.A.39}
-\contentsline {section}{\numberline {A.40}Circular Trigonometry}{280}{section.A.40}
-\contentsline {section}{\numberline {A.41}Parametric Equations}{284}{section.A.41}
-\contentsline {section}{\numberline {A.42}Parametric Plots of Circles}{287}{section.A.42}
-\contentsline {section}{\numberline {A.43}Eclipse the Ellipse}{289}{section.A.43}
-\contentsline {section}{\numberline {A.44}Taxicab Distance}{292}{section.A.44}
-\contentsline {section}{\numberline {A.45}Understanding and Using Absolute Value}{294}{section.A.45}
-\contentsline {section}{\numberline {A.46}The Path Not Taken}{296}{section.A.46}
-\contentsline {section}{\numberline {A.47}Midsets Abound}{298}{section.A.47}
-\contentsline {section}{\numberline {A.48}Tenacity Paracity}{301}{section.A.48}
-\contentsline {section}{\numberline {A.49}Who Mapped the What Where?}{306}{section.A.49}
-\contentsline {section}{\numberline {A.50}How Strange Could It Be?}{308}{section.A.50}
-\contentsline {section}{\numberline {A.51}Composing Transformations}{310}{section.A.51}
-\contentsline {chapter}{\numberline {B}References and Further Reading}{311}{appendix.B}
-\contentsline {chapter}{\numberline {C}Index}{313}{appendix.C}
+\contentsline {chapter}{\numberline {A}Activities}{154}{appendix.A}
+\contentsline {section}{\numberline {A.1}It's What the Book Says}{155}{section.A.1}
+\contentsline {section}{\numberline {A.2}Forget Something?}{158}{section.A.2}
+\contentsline {section}{\numberline {A.3}Measuring Area}{159}{section.A.3}
+\contentsline {section}{\numberline {A.4}Suitable Precision in Language}{161}{section.A.4}
+\contentsline {section}{\numberline {A.5}Tilted Square}{163}{section.A.5}
+\contentsline {section}{\numberline {A.6}Pythagorean Theorem}{164}{section.A.6}
+\contentsline {section}{\numberline {A.7}Angles in a Funky Shape}{167}{section.A.7}
+\contentsline {section}{\numberline {A.8}Trapezoid Area}{168}{section.A.8}
+\contentsline {section}{\numberline {A.9}Triangle Investigation}{170}{section.A.9}
+\contentsline {section}{\numberline {A.10}UnMessUpable Figures}{171}{section.A.10}
+\contentsline {section}{\numberline {A.11}Triangle Centers}{173}{section.A.11}
+\contentsline {section}{\numberline {A.12}Lines in Triangles}{176}{section.A.12}
+\contentsline {section}{\numberline {A.13}Isosceles Bisectors}{177}{section.A.13}
+\contentsline {section}{\numberline {A.14}About Medians}{180}{section.A.14}
+\contentsline {section}{\numberline {A.15}Verifying Our Constructions}{183}{section.A.15}
+\contentsline {section}{\numberline {A.16}Of Angles and Circles}{185}{section.A.16}
+\contentsline {section}{\numberline {A.17}More Circles}{188}{section.A.17}
+\contentsline {section}{\numberline {A.18}Quadrilateral Diagonals}{190}{section.A.18}
+\contentsline {section}{\numberline {A.19}Congruence via Transformations}{192}{section.A.19}
+\contentsline {section}{\numberline {A.20}More Transformations}{197}{section.A.20}
+\contentsline {section}{\numberline {A.21}Symmetries}{199}{section.A.21}
+\contentsline {section}{\numberline {A.22}Congruence Criteria}{202}{section.A.22}
+\contentsline {section}{\numberline {A.23}Parallels}{206}{section.A.23}
+\contentsline {section}{\numberline {A.24}Midsegments}{207}{section.A.24}
+\contentsline {section}{\numberline {A.25}Similarities}{208}{section.A.25}
+\contentsline {section}{\numberline {A.26}Side-Splitter Theorems}{213}{section.A.26}
+\contentsline {section}{\numberline {A.27}Trigonometry Checkup}{217}{section.A.27}
+\contentsline {section}{\numberline {A.28}Please be Rational}{220}{section.A.28}
+\contentsline {section}{\numberline {A.29}Rep-Tiles}{222}{section.A.29}
+\contentsline {section}{\numberline {A.30}Rep-Tiles Repeated}{224}{section.A.30}
+\contentsline {section}{\numberline {A.31}Scaling Area}{226}{section.A.31}
+\contentsline {section}{\numberline {A.32}Turn Up the Volume!}{228}{section.A.32}
+\contentsline {section}{\numberline {A.33}Coordinate Constructions}{232}{section.A.33}
+\contentsline {section}{\numberline {A.34}Bola, Para Bola}{234}{section.A.34}
+\contentsline {section}{\numberline {A.35}More Medians}{236}{section.A.35}
+\contentsline {section}{\numberline {A.36}Constructible Numbers}{239}{section.A.36}
+\contentsline {section}{\numberline {A.37}Impossibilities}{243}{section.A.37}
+\contentsline {section}{\numberline {A.38}Area and Perimeter}{244}{section.A.38}
+\contentsline {section}{\numberline {A.39}Reading Information from a Graph}{248}{section.A.39}
+\contentsline {section}{\numberline {A.40}Circular Trigonometry}{250}{section.A.40}
+\contentsline {section}{\numberline {A.41}Parametric Equations}{254}{section.A.41}
+\contentsline {section}{\numberline {A.42}Parametric Plots of Circles}{257}{section.A.42}
+\contentsline {section}{\numberline {A.43}Eclipse the Ellipse}{259}{section.A.43}
+\contentsline {section}{\numberline {A.44}Taxicab Distance}{262}{section.A.44}
+\contentsline {section}{\numberline {A.45}Understanding and Using Absolute Value}{264}{section.A.45}
+\contentsline {section}{\numberline {A.46}The Path Not Taken}{266}{section.A.46}
+\contentsline {section}{\numberline {A.47}Midsets Abound}{268}{section.A.47}
+\contentsline {section}{\numberline {A.48}Tenacity Paracity}{271}{section.A.48}
+\contentsline {chapter}{\numberline {B}References and Further Reading}{276}{appendix.B}
+\contentsline {chapter}{\numberline {C}Index}{278}{appendix.C}
 \contentsfinish 
