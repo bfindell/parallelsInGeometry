@@ -234,9 +234,9 @@ where the second circle hits the line.
 \item Use a compass and straightedge to bisect a given line segment. Explain the steps in your construction and how you know it works.
 \item Given a line segment with a point on it, construct a line perpendicular to the segment that passes through the given point. Explain the steps in your construction and how you know it works.
 \item Use a compass and straightedge to bisect a given angle. Explain the steps in your construction and how you know it works.
-\item Given an angle and some point, use a compass and straightedge to copy the angle so that the new angle has as its vertex the given point. Explain the steps in your construction and how you know it works.
+\item Given an angle and a ray, use a compass and straightedge to copy the angle so that the new angle has the ray as one side. Explain the steps in your construction and how you know it works.
 \item Given a point and line, construct a line perpendicular to the given line that passes through the given point. Explain the steps in your construction and how you know it works.
-\item Given a point and line, construct a line parallel to the given line that passes through the given point. Explain the steps in your construction and how you know it works.
+\item Given a point and line not containing the point, construct a line parallel to the given line that passes through the given point. Explain the steps in your construction and how you know it works.
 \item Given a length of $1$, construct a triangle whose perimeter is a
   multiple of $6$. Explain the steps in your construction and how you know it works.
 \item Construct a $30$-$60$-$90$ right triangle. Explain the steps in your
@@ -702,20 +702,19 @@ We really can't solve this problem completely because the information
 given doesn't uniquely determine a triangle. However, we can still say
 something. Here is what we can do:
 \begin{enumerate}
-\item Put the known angle at one end of the line segment. Note in the
-  picture below, it is at the left end of the line segment and it is
-  opening downwards.
+\item Put the known angle at one end of the line segment. (Note: In the
+  picture below, it is at the left end of the line segment, opening downwards.)
 \item Construct the perpendicular bisector of the given segment.
-\item See where the bisector in Step 2 intersects the perpendicular of
-  the other leg of the angle drawn from the vertex of the angle.
-\item Draw arc centered at the point found in Step 3 that
-  touches the endpoints of the original segment.
+\item Construct a perpendicular to the other leg of the angle at its vertex.
+\item See where the bisector in step 2 intersects the perpendicular drawn in step 3.
+\item Draw circle centered at the point found in step 4 and
+  touching the endpoints of the original segment.
+\item The segment cuts the circle into two arcs, one of which is opposite the
+angle placed in step 1.  Every point on that arc is a valid choice for the vertex of the triangle.
 \end{enumerate}
 \[
 \includegraphics[scale=0.85]{../graphics/challenge4.pdf}
 \]
-Every point on the arc is a valid choice for the vertex of the
-triangle.
 \end{proof}
 
 \begin{question} Why does the above method work?

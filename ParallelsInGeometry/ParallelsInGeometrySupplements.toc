@@ -1,11 +1,11 @@
 \contentsline {chapter}{\numberline {A}Supplemental Activities}{3}{appendix.A}
 \contentsline {section}{\numberline {A.52}Constructible Numbers, Part 2}{4}{section.A.52}
 \contentsline {chapter}{\numberline {B}Supplemental Problems}{7}{appendix.B}
-\contentsline {section}{\numberline {B.1}Midterm 1 Review}{8}{section.B.1}
+\contentsline {section}{\numberline {B.1}Midterm 1 Review, 2/19/18}{8}{section.B.1}
 \contentsline {subsection}{\numberline {B.1.1}Review Ideas}{8}{subsection.B.1.1}
 \contentsline {section}{\numberline {B.2}Midterm 2 Review}{12}{section.B.2}
 \contentsline {subsection}{\numberline {B.2.1}Midterm 2 Review Problems}{13}{subsection.B.2.1}
-\contentsline {section}{\numberline {B.3}Math 1166: Final Exam Review, Draft 2017}{19}{section.B.3}
+\contentsline {section}{\numberline {B.3}Math 1166: Final Exam Review, Draft 2018}{19}{section.B.3}
 \contentsline {subsection}{\numberline {B.3.1}Supplemental Review Problems}{20}{subsection.B.3.1}
 \contentsline {section}{\numberline {B.4}Math 4407 Exam Review}{26}{section.B.4}
 \contentsline {subsection}{\numberline {B.4.1}Review Ideas}{26}{subsection.B.4.1}
