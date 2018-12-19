@@ -11,7 +11,7 @@
 %\end{itemize}
 
 \section{Transformations, Symmetry, and Congruence}
-In school mathematics, transformations and symmetry have typically been small niche topics, separate from each other, separate from most of the rest of school mathematics, and receiving little curricular attention.  Congruence, on the other hand, is a more prominent idea that begins informally in the elementary grades as ``same shape, same size'' and culminates in high school with axioms, theorems, and proofs.  
+In school mathematics, transformations and symmetry have typically been niche topics, separate from each other, separate from most of the rest of school mathematics, and receiving little curricular attention.  Congruence, on the other hand, is a more prominent idea that begins informally in the elementary grades as ``same shape, same size'' and culminates in high school with theorems and proofs, sometimes based on explicit postulates.  
 
 In this section, we demonstrate how transformations can undergird both symmetry and congruence, thereby strengthening all three topics and also establishing groundwork for an analogous approach to similarity.  
 
@@ -29,7 +29,17 @@ Is a transformation that stretches the plane an isometry?  Explain.
 \end{question}
 \QM
 
-Through exploration with transparencies, tracing paper, software,\standardhs{G-CO.2} it is not hard to see that the basic rigid motions have important properties.\standard{8.G.1} \standard{8.G.1a} \standard{8.G.1b} \standard{8.G.1c}  Based on such explorations, we write careful definitions of translation, reflection, rotation, by considering what is required to specify each transformation.\standardhs{G-CO.4}
+Through exploration with transparencies, tracing paper, and software, it is not hard to see that the basic rigid motions have important properties.\standard{8.G.1} \standard{8.G.1a} \standard{8.G.1b} \standard{8.G.1c}  
+
+Based on such explorations, we write careful definitions of translation, reflection, rotation, focusing what is required to specify each transformation.\standardhs{G-CO.4}
+
+\begin{question}
+What does it take to specify a translation?  A reflection?  A rotation?
+\end{question}
+\QM
+\begin{teachingnote}
+A translation is specified by a vector.  (Less formally, a distance and a direction.) A reflection is specified by a line. A rotation is specified by a center and a directed angle. 
+\end{teachingnote}
 
 \begin{definition}
 The \emph{identity transformation}, sometimes called the ``do nothing'' transformation, doesn't move the plane at all.  As a function, the identity transformation takes a point to itself: The output is identical to the input.
@@ -39,17 +49,22 @@ The \emph{identity transformation}, sometimes called the ``do nothing'' transfor
 Is the identity transformation a translation, rotation, or reflection?  Explain.  
 \end{question}
 \QM 
+\begin{teachingnote}
+The identity transformation can be seen as a translation of distance zero in any (!) direction.  The identity transformation can also be seen as a rotation about any (!) point by an angle of $0^\circ$ or $360^\circ$.  In fact, any multiple of $360^\circ$ will work.  The identity transformation cannot be a reflection, because reflections change the orientations of figures from, for example, clockwise to counterclockwise. 
+\end{teachingnote}
 
 \subsection{Symmetry}
-A \emph{symmetry} of a figure is a transformation that takes the figure onto itself, so that the figure is ``preserved'' by the transformation.  In everyday language, we sometimes say a figure is ``symmetrical,'' but mathematically we can be more precise by specifying the symmetry transformation(s) of the figure.\standardhs{G-CO.3}  
+A \emph{symmetry} of a figure is a transformation that takes the figure onto 
+itself,\standardhs{G-CO.3} so that the figure is ``preserved'' by the transformation.  In everyday language, we may say a figure is ``symmetrical,'' but mathematically we can be more precise by specifying the symmetry transformation(s) of the figure.  
 
 \begin{question}
 What are the symmetries of a rectangle?  Be sure to specify the transformations.  
 \end{question}
 \QM
 
+
 \subsection{Congruence}
-Congruence is often defined using angles and side lengths.  But such a definition cannot apply to figures that are not polygons.  A more inclusive definition is as follows:  
+Congruence is sometimes described using angles and side lengths.  But such a definition cannot apply to figures that are not polygons.  A more inclusive definition is as follows:  
 
 \begin{definition}
 Two figures (in the plane) are said to be \emph{congruent} to one another if there is a sequence of basic rigid motions that takes one figure onto the other.  
@@ -62,13 +77,12 @@ When we say that two polygons are congruent, why is the order of labeling the ve
 \end{question}
 \QM
 
-The above definition of congruence helps us in two directions.\standard{8.G.2}  First, if we have a sequence of basic rigid motions that takes one figure onto another, then we know the two figures are congruent.  Furthermore, the sequence of basic rigid motions sets up the correspondences between various parts of the figures.  Conversely, if two figures are congruent, then we know it is possible to find a sequence of basic rigid motions that takes one figure onto the other.  And the sequence of basic rigid motions often takes advantage of corresponding parts that are already known to be congruent. 
+The above definition of congruence helps us in two directions.\standard{8.G.2}  First, if we have a sequence of basic rigid motions that takes one figure onto another, then we know the two figures are congruent.  Furthermore, the sequence of basic rigid motions sets up the correspondences between various parts of the figures.  Conversely, if two figures are congruent, then we know it is possible to find a sequence of basic rigid motions that takes one figure onto the other.  And the sequence of basic rigid motions often takes advantage of corresponding parts that are known to be congruent. 
 
 For triangles, we still have the familiar congruence criteria, such as side-side-side (SSS), side-angle-side (SAS), and angle-side-angle (ASA).  The key idea is that although triangles have six measures of sides and angles, most of the time (but not always) just three of these measures are sufficient to determine the triangle uniquely.  Students can develop intuition about these criteria by drawing triangles from given conditions.\standard{7.G.2}  The next step is to show, first, that the above definition fits with traditional notions of triangle congruence\standardhs{G-CO.7}, and, second, to prove that the triangle congruence criteria follow from the properties of the basic rigid motions.\standardhs{G-CO.8}
 
 Then, because the triangle congruence criteria can be established from sequences of rigid motions, we can prove theorems using triangle congruence criteria, basic rigid motions, or a combination of the two approaches.  
 \fixnote{Perhaps elaborate this section.}
-\fixnote{In the problems, add definitions of the basic rigid motions.}
 
 
 \begin{problems}
@@ -77,6 +91,9 @@ Then, because the triangle congruence criteria can be established from sequences
 \item What is required to specify a translation?  
 \item What is required to specify a rotation? 
 \item What is required to specify a reflection?  
+\item Write a careful definition of translation. Hint: Describe how to find the image $P'$ of a point $P$.  
+\item Write a careful definition of rotation. Hint: Describe how to find the image $P'$ of a point $P$.  
+\item Write a careful definition of reflection. Hint: Describe how to find the image $P'$ of a point $P$.
 
 Sometimes a sequence of transformations can be described as a single translation, rotation, or reflection.  
 

@@ -1,12 +1,16 @@
 \newpage
 
 \section{Congruence Criteria}
-\fixnote{Rewrite this activity so that students can come up with the sequence of transformations.  And discuss a common error:   Translate $\triangle ABC$ through the vector $\overrightarrow{BY}$.  Then rotate about $Y$ by $\angle C'YZ.$.   Use half-plane ideas to talk about how to handle, in the general case, a reflection might not be necessary.  
-Simplify by eliminating the prime notation.  After the translation, for example, $A$ coincides with $X$.  (See photos from class.)}
-
 \begin{teachingnote}
-Supplies: tracing paper.
+Perhaps ask students to come up with the sequence of transformations. 
+
+Discuss a common error:   Translate $\triangle ABC$ through the vector $\overrightarrow{BY}$.  Then rotate about $Y$ by $\angle C'YZ.$. 
+
+The generality of the proofs requires consideration of the possibility that a reflection might not be necessary in the general case.  Use half-plane ideas to ask whether points are on the same side or opposite sides of lines.  
+
+Simplify by eliminating the prime notation.  After the translation, for example, $A$ coincides with $X$.  (See photos from class.)
 \end{teachingnote}
+
 In this activity, we show how the common triangle congruence criteria follow from
  what we now know about isometries.\standardhs{G-CO.8}  Recall that two figures are said to be 
 congruent if there exists an isometry (translation, rotation, or reflection) or a 
@@ -49,8 +53,6 @@ In a previous activity, you used triangle congruence criteria to prove the follo
 Verify that these results could have been established using only SAS and ASA congruence.  (Thus, you may use these results in the problems that follow.) 
 \end{prob}
 
-\fixnote{Easier:  Translate $\triangle ABC$ through the vector $\overrightarrow{CZ}$.  Then rotate.}
-
 \begin{prob}
 Proof of Hypotenuse-Leg (HL) congruence.  Suppose $\triangle ABC$ and $\triangle XYZ$ are such that $\angle C$ and $\angle Z$ are right angles, $AB=XY$, and $BC=YZ$.  Prove that $\triangle ABC \cong \triangle XYZ$.  
 $$\includegraphics[scale=0.6]{../graphics/HL}$$
@@ -58,11 +60,18 @@ $$\includegraphics[scale=0.6]{../graphics/HL}$$
 
 \begin{teachingnote}
 One approach:  First extend side $\overrightarrow{AC}$ to a point $A'$ so that $CA'=XZ$, and argue that $\triangle A'BC \cong \triangle XYZ$.
+
+Easier:  Translate $\triangle ABC$ through the vector $\overrightarrow{CZ}$.  Then rotate.
+
+Alternatively, save HL until after SSS?
 \end{teachingnote}
 
 
 \begin{prob}
 Proof of Side-Side-Side (SSS) congruence.  Suppose $\triangle ABC$ and $\triangle XYZ$ are such that $AB=XY$, $AC=XZ$, and $BC=YZ$.  Prove, using basic rigid motions, that $\triangle ABC \cong \triangle XYZ$.  Build toward the general case through the following steps:  
+\begin{teachingnote}
+Or maybe these two figures don't matter if we emphasize that $A$ and $B$ both lie on the perpendicular bisector of $\overline{CZ}$.
+\end{teachingnote}
 \begin{enumerate}
 \item Case 1a:  $A=X$, $B=Y$, and $C$ and $Z$ lie on opposite sides of $\overleftrightarrow{AB}$.  (Hint:  Explain why the situation must be like one of the figures below, argue that $\overleftrightarrow{AB}$ is the perpendicular bisector of $\overline{CZ}$, and then use a reflection.)
 $$\includegraphics[scale=0.6]{../graphics/SSS}$$
