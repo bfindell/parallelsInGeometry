@@ -1,31 +1,32 @@
-\indexentry{set|hyperpage}{7}
-\indexentry{e@$\in$|hyperpage}{7}
-\indexentry{set theory symbols!in@$\in$|hyperpage}{7}
-\indexentry{subset|hyperpage}{8}
-\indexentry{set theory symbols!subset@$\subset$|hyperpage}{8}
-\indexentry{union|hyperpage}{9}
-\indexentry{u@$\cup$|hyperpage}{9}
-\indexentry{set theory symbols!union@$\cup$|hyperpage}{9}
-\indexentry{intersection|hyperpage}{10}
-\indexentry{set theory symbols!intersection@$\cap$|hyperpage}{10}
-\indexentry{empty set|hyperpage}{10}
-\indexentry{set theory symbols!emptyset@$\emptyset$|hyperpage}{10}
-\indexentry{complement|hyperpage}{11}
-\indexentry{set theory symbols!complement@$-$|hyperpage}{11}
-\indexentry{Escher, M.C.|hyperpage}{16}
-\indexentry{tessellation|hyperpage}{16}
-\indexentry{tessellation!regular|hyperpage}{16}
-\indexentry{regular!tessellation|hyperpage}{16}
-\indexentry{regular!polygon|hyperpage}{16}
-\indexentry{Kepler, Johannes|hyperpage}{16}
-\indexentry{tessellation!triangles|hyperpage}{17}
-\indexentry{tessellation!any quadrilateral|hyperpage}{17}
-\indexentry{quadrilateral!tessellation of|hyperpage}{17}
-\indexentry{Pythagorean Theorem|hyperpage}{19}
-\indexentry{bees|hyperpage}{22}
+\indexentry{set|hyperpage}{8}
+\indexentry{e@$\in$|hyperpage}{8}
+\indexentry{set theory symbols!in@$\in$|hyperpage}{8}
+\indexentry{subset|hyperpage}{9}
+\indexentry{set theory symbols!subset@$\subset$|hyperpage}{9}
+\indexentry{union|hyperpage}{10}
+\indexentry{u@$\cup$|hyperpage}{10}
+\indexentry{set theory symbols!union@$\cup$|hyperpage}{10}
+\indexentry{intersection|hyperpage}{11}
+\indexentry{set theory symbols!intersection@$\cap$|hyperpage}{11}
+\indexentry{empty set|hyperpage}{11}
+\indexentry{set theory symbols!emptyset@$\emptyset$|hyperpage}{11}
+\indexentry{disjoint|hyperpage}{11}
+\indexentry{complement|hyperpage}{12}
+\indexentry{set theory symbols!complement@$-$|hyperpage}{12}
+\indexentry{Escher, M.C.|hyperpage}{17}
+\indexentry{tessellation|hyperpage}{17}
+\indexentry{tessellation!regular|hyperpage}{17}
+\indexentry{regular!tessellation|hyperpage}{17}
+\indexentry{regular!polygon|hyperpage}{17}
+\indexentry{Kepler, Johannes|hyperpage}{17}
+\indexentry{tessellation!triangles|hyperpage}{18}
+\indexentry{tessellation!any quadrilateral|hyperpage}{18}
+\indexentry{quadrilateral!tessellation of|hyperpage}{18}
+\indexentry{Pythagorean Theorem|hyperpage}{20}
+\indexentry{bees|hyperpage}{23}
 \indexentry{Pythagorean Theorem|hyperpage}{24}
-\indexentry{dissection proof|hyperpage}{25}
-\indexentry{paradox!triangle dissection|hyperpage}{26}
+\indexentry{dissection proof|hyperpage}{26}
+\indexentry{paradox!triangle dissection|hyperpage}{27}
 \indexentry{doubling the cube|hyperpage}{27}
 \indexentry{calisson|hyperpage}{30}
 \indexentry{Cavalieri's Principle|hyperpage}{32}
@@ -92,83 +93,77 @@
 \indexentry{Theorem!Split-Side|hyperpage}{94}
 \indexentry{similar triangles|hyperpage}{96}
 \indexentry{Pythagorean Triple|hyperpage}{99}
-\indexentry{line!Coordinate Geometry|hyperpage}{103}
-\indexentry{circle!Coordinate   Geometry|hyperpage}{103}
-\indexentry{point!Coordinate Geometry|hyperpage}{103}
-\indexentry{d@$d$!Euclidean|hyperpage}{104}
-\indexentry{distance!Euclidean|hyperpage}{104}
-\indexentry{coordinate geometry!bisecting a segment|hyperpage}{104}
-\indexentry{coordinate geometry!parallel through a point|hyperpage}{104}
-\indexentry{coordinate geometry!perpendicular through a point|hyperpage}{105}
-\indexentry{coordinate geometry!line between two points|hyperpage}{105}
-\indexentry{coordinate geometry!intersection of a line and a circle|hyperpage}{106}
-\indexentry{coordinate geometry!bisecting an angle|hyperpage}{107}
-\indexentry{coordinate geometry!intersection of two circles|hyperpage}{107}
-\indexentry{coordinate geometry!equilateral triangle|hyperpage}{107}
-\indexentry{parabola|hyperpage}{110}
-\indexentry{focus of a   parabola|hyperpage}{111}
-\indexentry{directrix|hyperpage}{111}
-\indexentry{circumcenter|hyperpage}{114}
-\indexentry{orthocenter|hyperpage}{114}
-\indexentry{incenter|hyperpage}{114}
-\indexentry{centroid|hyperpage}{114}
-\indexentry{C@$\C$|hyperpage}{115}
-\indexentry{constructible numbers|hyperpage}{115}
-\indexentry{F@$\F$|hyperpage}{115}
-\indexentry{folding and tracing numbers|hyperpage}{115}
-\indexentry{D@$\D$|hyperpage}{115}
-\indexentry{Descartes numbers|hyperpage}{115}
-\indexentry{set theory symbols!in@$\in$|hyperpage}{115}
-\indexentry{e@$\in$|hyperpage}{115}
-\indexentry{integers|hyperpage}{116}
-\indexentry{Z@$\Z$|hyperpage}{116}
-\indexentry{compass and straightedge!multiplication|hyperpage}{117}
-\indexentry{similar triangles|hyperpage}{117}
-\indexentry{compass and straightedge!division|hyperpage}{117}
-\indexentry{similar triangles|hyperpage}{117}
-\indexentry{Q@$\Q$|hyperpage}{118}
-\indexentry{rational numbers|hyperpage}{118}
-\indexentry{field|hyperpage}{119}
-\indexentry{closed|hyperpage}{119}
-\indexentry{associative|hyperpage}{119}
-\indexentry{commutative|hyperpage}{120}
-\indexentry{Qalpha@$\Q(\alpha)$|hyperpage}{121}
-\indexentry{compass and straightedge!impossible problems|hyperpage}{124}
-\indexentry{doubling the cube|hyperpage}{124}
-\indexentry{squaring the circle|hyperpage}{124}
-\indexentry{trisecting the angle|hyperpage}{125}
-\indexentry{folding and tracing!solving cubic equations|hyperpage}{126}
-\indexentry{cubic equations!folding and tracing|hyperpage}{126}
-\indexentry{nexus of the universe|hyperpage}{130}
-\indexentry{city geometry|hyperpage}{130}
-\indexentry{geometry!City|hyperpage}{130}
-\indexentry{geometry!Euclidean|hyperpage}{131}
-\indexentry{taxicab distance|hyperpage}{131}
-\indexentry{d@$d$!taxicab|hyperpage}{131}
-\indexentry{distance!taxicab|hyperpage}{131}
-\indexentry{city geometry|hyperpage}{132}
-\indexentry{geometry!city|hyperpage}{132}
-\indexentry{city geometry!triangle|hyperpage}{133}
-\indexentry{triangle!city geometry|hyperpage}{133}
-\indexentry{circle!city geometry|hyperpage}{134}
-\indexentry{city geometry!circle|hyperpage}{134}
-\indexentry{city geometry!midset|hyperpage}{138}
-\indexentry{midset!city geometry|hyperpage}{138}
-\indexentry{city geometry!parabola|hyperpage}{141}
-\indexentry{parabola!city geometry|hyperpage}{141}
-\indexentry{paradox|hyperpage}{142}
-\indexentry{paradox|hyperpage}{142}
-\indexentry{paradox!$\sqrt{2}=2$|hyperpage}{142}
-\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{142}
-\indexentry{gorilla suit|hyperpage}{145}
-\indexentry{Crane Alley|hyperpage}{148}
-\indexentry{Crane Alley|hyperpage}{149}
-\indexentry{puzzle-stroll|hyperpage}{150}
-\indexentry{Battle Royale|hyperpage}{150}
-\indexentry{zebra|hyperpage}{151}
-\indexentry{rep-tile|hyperpage}{224}
-\indexentry{symmetry of scale|hyperpage}{227}
-\indexentry{Cavalieri's principle|hyperpage}{230}
-\indexentry{focus|hyperpage}{236}
-\indexentry{directrix|hyperpage}{236}
-\indexentry{midset|hyperpage}{271}
+\indexentry{line!Coordinate Geometry|hyperpage}{102}
+\indexentry{circle!Coordinate   Geometry|hyperpage}{102}
+\indexentry{point!Coordinate Geometry|hyperpage}{102}
+\indexentry{d@$d$!Euclidean|hyperpage}{103}
+\indexentry{distance!Euclidean|hyperpage}{103}
+\indexentry{coordinate geometry!bisecting a segment|hyperpage}{103}
+\indexentry{coordinate geometry!parallel through a point|hyperpage}{103}
+\indexentry{coordinate geometry!perpendicular through a point|hyperpage}{104}
+\indexentry{coordinate geometry!line between two points|hyperpage}{104}
+\indexentry{coordinate geometry!intersection of a line and a circle|hyperpage}{105}
+\indexentry{coordinate geometry!bisecting an angle|hyperpage}{106}
+\indexentry{coordinate geometry!intersection of two circles|hyperpage}{106}
+\indexentry{coordinate geometry!equilateral triangle|hyperpage}{106}
+\indexentry{parabola|hyperpage}{109}
+\indexentry{focus of a   parabola|hyperpage}{110}
+\indexentry{directrix|hyperpage}{110}
+\indexentry{circumcenter|hyperpage}{113}
+\indexentry{orthocenter|hyperpage}{113}
+\indexentry{incenter|hyperpage}{113}
+\indexentry{centroid|hyperpage}{113}
+\indexentry{C@$\C$|hyperpage}{114}
+\indexentry{constructible numbers|hyperpage}{114}
+\indexentry{F@$\F$|hyperpage}{114}
+\indexentry{folding and tracing numbers|hyperpage}{114}
+\indexentry{D@$\D$|hyperpage}{114}
+\indexentry{Descartes numbers|hyperpage}{114}
+\indexentry{set theory symbols!in@$\in$|hyperpage}{114}
+\indexentry{e@$\in$|hyperpage}{114}
+\indexentry{integers|hyperpage}{115}
+\indexentry{Z@$\Z$|hyperpage}{115}
+\indexentry{compass and straightedge!multiplication|hyperpage}{116}
+\indexentry{similar triangles|hyperpage}{116}
+\indexentry{compass and straightedge!division|hyperpage}{116}
+\indexentry{similar triangles|hyperpage}{116}
+\indexentry{Q@$\Q$|hyperpage}{117}
+\indexentry{rational numbers|hyperpage}{117}
+\indexentry{field|hyperpage}{118}
+\indexentry{closed|hyperpage}{118}
+\indexentry{associative|hyperpage}{118}
+\indexentry{commutative|hyperpage}{119}
+\indexentry{Qalpha@$\Q(\alpha)$|hyperpage}{120}
+\indexentry{compass and straightedge!impossible problems|hyperpage}{123}
+\indexentry{doubling the cube|hyperpage}{123}
+\indexentry{squaring the circle|hyperpage}{123}
+\indexentry{trisecting the angle|hyperpage}{124}
+\indexentry{folding and tracing!solving cubic equations|hyperpage}{125}
+\indexentry{cubic equations!folding and tracing|hyperpage}{125}
+\indexentry{nexus of the universe|hyperpage}{129}
+\indexentry{city geometry|hyperpage}{129}
+\indexentry{geometry!City|hyperpage}{129}
+\indexentry{geometry!Euclidean|hyperpage}{129}
+\indexentry{taxicab distance|hyperpage}{130}
+\indexentry{d@$d$!taxicab|hyperpage}{130}
+\indexentry{distance!taxicab|hyperpage}{130}
+\indexentry{city geometry|hyperpage}{131}
+\indexentry{geometry!city|hyperpage}{131}
+\indexentry{city geometry!triangle|hyperpage}{132}
+\indexentry{triangle!city geometry|hyperpage}{132}
+\indexentry{circle!city geometry|hyperpage}{133}
+\indexentry{city geometry!circle|hyperpage}{133}
+\indexentry{city geometry!midset|hyperpage}{136}
+\indexentry{midset!city geometry|hyperpage}{136}
+\indexentry{city geometry!parabola|hyperpage}{139}
+\indexentry{parabola!city geometry|hyperpage}{139}
+\indexentry{paradox|hyperpage}{140}
+\indexentry{paradox|hyperpage}{140}
+\indexentry{paradox!$\sqrt{2}=2$|hyperpage}{140}
+\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{140}
+\indexentry{gorilla suit|hyperpage}{143}
+\indexentry{Crane Alley|hyperpage}{146}
+\indexentry{Crane Alley|hyperpage}{147}
+\indexentry{puzzle-stroll|hyperpage}{148}
+\indexentry{Battle Royale|hyperpage}{148}
+\indexentry{zebra|hyperpage}{149}
