@@ -1,11 +1,11 @@
 \contentsline {chapter}{\numberline {A}Supplemental Activities}{3}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Supplemental Problems}{6}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Midterm 1 Review, Spring 2023}{7}{section.B.1}%
+\contentsline {section}{\numberline {B.1}Midterm 1 Review, Spring 2024}{7}{section.B.1}%
 \contentsline {subsection}{\numberline {B.1.1}Review Ideas}{7}{subsection.B.1.1}%
-\contentsline {section}{\numberline {B.2}Midterm 2 Review, Spring 2023}{11}{section.B.2}%
+\contentsline {section}{\numberline {B.2}Midterm 2 Review, Spring 2024}{11}{section.B.2}%
 \contentsline {subsection}{\numberline {B.2.1}Midterm 2 Review Problems}{11}{subsection.B.2.1}%
-\contentsline {section}{\numberline {B.3}Math 1166: Final Exam Review, Spring 2022 (draft)}{19}{section.B.3}%
+\contentsline {section}{\numberline {B.3}Math 1166: Final Exam Review, Spring 2024}{19}{section.B.3}%
 \contentsline {subsection}{\numberline {B.3.1}Supplemental Review Problems}{20}{subsection.B.3.1}%
-\contentsline {section}{\numberline {B.4}Math 4407 Exam Review}{26}{section.B.4}%
-\contentsline {subsection}{\numberline {B.4.1}Review Ideas}{26}{subsection.B.4.1}%
+\contentsline {section}{\numberline {B.4}Math 4407 Exam Review}{25}{section.B.4}%
+\contentsline {subsection}{\numberline {B.4.1}Review Ideas}{25}{subsection.B.4.1}%
 \contentsfinish 
